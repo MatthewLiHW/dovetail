@@ -9,19 +9,13 @@ Dovetail tc3005 specification - Service VM as IPv6 vRouter
 .. table::
    :class: longtable
 
-+-----------------------+--------------------------------------------------------------------------+
-|test case name         |Service VM as IPv6 vRouter                                                |
-|                       |                                                                          |
++--------------------------------------------------------------------------------------------------+
+|Service VM as IPv6 vRouter                                                                        |
+|                                                                                                  |
 +-----------------------+--------------------------------------------------------------------------+
 |id                     |dovetail.ipv6.tc005                                                       |
 +-----------------------+--------------------------------------------------------------------------+
-|description            |IPv6 connnectivity, service VM as IPv6 vRouter                            |
-+-----------------------+--------------------------------------------------------------------------+
-|modules under test     |neutron, nova, etc                                                        |
-+-----------------------+--------------------------------------------------------------------------+
-|source test project    |yardstick                                                                 |
-+-----------------------+--------------------------------------------------------------------------+
-|test items             |yardstick_tc027                                                           |
+|test item              |RTT, Round Trip Time                                                      |
 +-----------------------+--------------------------------------------------------------------------+
 |environmental          | OpenStack-only environment                                               |
 |requirements &         | environment can be deplyed on bare metal of virtualized infrastructure   |
