@@ -12,8 +12,7 @@
 +---------------------------+-----------------------------------------------------------------------------+
 |test tool                  |functest/tempest                                                             |
 +---------------------------+-----------------------------------------------------------------------------+
-|test items                 |tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.   |
-|                           |test_get_non_existent_server:                                                |
+|test items                 |tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.test_get_non_existent_server:| 
 |                           |{id: 3436b02f-1b1e-4f03-881e-c6a602327439}                                   |
 +---------------------------+-----------------------------------------------------------------------------+
 |pass fail criteria         |All tests are passed                                                         |
