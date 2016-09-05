@@ -11,8 +11,4 @@ OPNFV IPv6 compliance test plan
 
    ./testplan.rst
    ./designspecification.rst
-.. <Start>
-.. We should iterate here to cover all test specifications in the test suite
-   ./testspecification.rst
-.. <End>
-   ./testprocedure.rst
+   ./ipv6.tc005.specification.rst
