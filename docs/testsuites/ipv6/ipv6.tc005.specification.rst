@@ -13,14 +13,14 @@ Dovetail tc3005 specification - Service VM as IPv6 vRouter
 |Service VM as IPv6 vRouter                                                                        |
 |                                                                                                  |
 +-----------------------+--------------------------------------------------------------------------+
-|id                     |dovetail.tc3005                                                           |
+|id                     |dovetail.ipv6.tc005                                                       |
 +-----------------------+--------------------------------------------------------------------------+
 |test item              |RTT, Round Trip Time                                                      |
 +-----------------------+--------------------------------------------------------------------------+
 |environmental          | OpenStack-only environment                                               |
-|requirements &         | environment may be deplyed on bare metal of virtualized infrastructure   |
-|preconditions          | deployment may be HA or non-HA                                           |
-|                       | the test case image needs to be installed into Glance with ping6 included|
+|requirements &         | environment can be deplyed on bare metal of virtualized infrastructure   |
+|preconditions          | deployment can be HA or non-HA                                           |
+|                       | test case image needs to be installed into Glance with ping6 included    |
 +-----------------------+--------------------------------------------------------------------------+
 |scenario dependencies  | nosdn                                                                    |
 +-----------------------+--------------------------------------------------------------------------+
