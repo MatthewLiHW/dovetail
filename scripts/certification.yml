@@ -1,0 +1,7 @@
+certification_basic:
+  name: certification_basic
+  testcase_list:
+    - dovetail.tc001
+    - dovetail.tc002
+    - dovetail.tc003  
+

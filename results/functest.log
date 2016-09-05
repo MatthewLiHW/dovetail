@@ -1,0 +1,628 @@
+2016-09-01 12:06:18,145 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-01 12:06:18,145 - prepare_env - INFO - ==============================================
+2016-09-01 12:06:18,145 - prepare_env - INFO - Checking environment variables...
+2016-09-01 12:06:18,146 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-01 12:06:18,146 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-01 12:06:18,146 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-01 12:06:18,146 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-01 12:06:18,146 - prepare_env - INFO - ==============================================
+2016-09-01 12:06:18,146 - prepare_env - INFO - Creating needed directories...
+2016-09-01 12:06:18,146 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-01 12:06:18,146 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-01 12:06:18,146 - prepare_env - INFO - ==============================================
+2016-09-01 12:06:18,146 - prepare_env - INFO - Fetching RC file...
+2016-09-01 12:06:18,146 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-01 12:06:18,146 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-01 12:13:20,666 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-01 12:13:20,666 - prepare_env - INFO - ==============================================
+2016-09-01 12:13:20,666 - prepare_env - INFO - Checking environment variables...
+2016-09-01 12:13:20,666 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-01 12:13:20,666 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-01 12:13:20,666 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-01 12:13:20,667 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-01 12:13:20,667 - prepare_env - INFO - ==============================================
+2016-09-01 12:13:20,667 - prepare_env - INFO - Creating needed directories...
+2016-09-01 12:13:20,667 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-01 12:13:20,667 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-01 12:13:20,667 - prepare_env - INFO - ==============================================
+2016-09-01 12:13:20,667 - prepare_env - INFO - Fetching RC file...
+2016-09-01 12:13:20,667 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-01 12:13:20,667 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-01 12:13:21,646 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:38:45,074 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:38:45,075 - prepare_env - INFO - ==============================================
+2016-09-02 02:38:45,075 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:38:45,075 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:38:45,075 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:38:45,075 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:38:45,075 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:38:45,075 - prepare_env - INFO - ==============================================
+2016-09-02 02:38:45,075 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:38:45,075 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:38:45,075 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:38:45,075 - prepare_env - INFO - ==============================================
+2016-09-02 02:38:45,076 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:38:45,076 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:38:45,076 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:38:46,058 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:39:31,712 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:39:31,713 - prepare_env - INFO - ==============================================
+2016-09-02 02:39:31,713 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:39:31,713 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:39:31,713 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:39:31,713 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:39:31,713 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:39:31,713 - prepare_env - INFO - ==============================================
+2016-09-02 02:39:31,713 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:39:31,713 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:39:31,713 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:39:31,714 - prepare_env - INFO - ==============================================
+2016-09-02 02:39:31,714 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:39:31,714 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:39:31,714 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:39:32,684 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:39:34,739 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:39:34,739 - prepare_env - INFO - ==============================================
+2016-09-02 02:39:34,739 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:39:34,739 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:39:34,739 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:39:34,739 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:39:34,739 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:39:34,740 - prepare_env - INFO - ==============================================
+2016-09-02 02:39:34,740 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:39:34,740 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:39:34,740 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:39:34,740 - prepare_env - INFO - ==============================================
+2016-09-02 02:39:34,740 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:39:34,740 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:39:34,740 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:39:35,732 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:40:30,272 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:40:30,272 - prepare_env - INFO - ==============================================
+2016-09-02 02:40:30,272 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:40:30,272 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:40:30,272 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:40:30,272 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:40:30,272 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:40:30,272 - prepare_env - INFO - ==============================================
+2016-09-02 02:40:30,272 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:40:30,273 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:40:30,273 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:40:30,273 - prepare_env - INFO - ==============================================
+2016-09-02 02:40:30,273 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:40:30,273 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:40:30,273 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:40:31,253 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:40:33,381 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:40:33,381 - prepare_env - INFO - ==============================================
+2016-09-02 02:40:33,381 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:40:33,381 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:40:33,382 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:40:33,382 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:40:33,382 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:40:33,382 - prepare_env - INFO - ==============================================
+2016-09-02 02:40:33,382 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:40:33,382 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:40:33,382 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:40:33,382 - prepare_env - INFO - ==============================================
+2016-09-02 02:40:33,382 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:40:33,382 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:40:33,382 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:40:34,376 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:42:39,938 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:42:39,938 - prepare_env - INFO - ==============================================
+2016-09-02 02:42:39,938 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:42:39,938 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:42:39,939 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:42:39,939 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:42:39,939 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:42:39,939 - prepare_env - INFO - ==============================================
+2016-09-02 02:42:39,939 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:42:39,939 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:42:39,939 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:42:39,939 - prepare_env - INFO - ==============================================
+2016-09-02 02:42:39,939 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:42:39,939 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:42:39,939 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:42:40,923 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:42:43,036 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:42:43,036 - prepare_env - INFO - ==============================================
+2016-09-02 02:42:43,036 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:42:43,037 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:42:43,037 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:42:43,037 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:42:43,037 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:42:43,037 - prepare_env - INFO - ==============================================
+2016-09-02 02:42:43,037 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:42:43,037 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:42:43,037 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:42:43,037 - prepare_env - INFO - ==============================================
+2016-09-02 02:42:43,037 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:42:43,037 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:42:43,038 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:42:44,043 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:43:24,971 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:43:24,971 - prepare_env - INFO - ==============================================
+2016-09-02 02:43:24,972 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:43:24,972 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:43:24,972 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:43:24,972 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:43:24,972 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:43:24,972 - prepare_env - INFO - ==============================================
+2016-09-02 02:43:24,972 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:43:24,972 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:43:24,972 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:43:24,972 - prepare_env - INFO - ==============================================
+2016-09-02 02:43:24,972 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:43:24,972 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:43:24,973 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:43:25,978 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:43:28,073 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:43:28,074 - prepare_env - INFO - ==============================================
+2016-09-02 02:43:28,074 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:43:28,074 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:43:28,074 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:43:28,074 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:43:28,074 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:43:28,074 - prepare_env - INFO - ==============================================
+2016-09-02 02:43:28,074 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:43:28,074 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:43:28,074 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:43:28,074 - prepare_env - INFO - ==============================================
+2016-09-02 02:43:28,075 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:43:28,075 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:43:28,075 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:43:29,054 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:44:06,224 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:44:06,224 - prepare_env - INFO - ==============================================
+2016-09-02 02:44:06,224 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:44:06,224 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:44:06,224 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:44:06,224 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:44:06,224 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:44:06,225 - prepare_env - INFO - ==============================================
+2016-09-02 02:44:06,225 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:44:06,225 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:44:06,225 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:44:06,225 - prepare_env - INFO - ==============================================
+2016-09-02 02:44:06,225 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:44:06,225 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:44:06,225 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:44:07,211 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:44:09,155 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:44:09,155 - prepare_env - INFO - ==============================================
+2016-09-02 02:44:09,156 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:44:09,156 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:44:09,156 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:44:09,156 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:44:09,156 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:44:09,156 - prepare_env - INFO - ==============================================
+2016-09-02 02:44:09,156 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:44:09,156 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:44:09,156 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:44:09,156 - prepare_env - INFO - ==============================================
+2016-09-02 02:44:09,156 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:44:09,156 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:44:09,157 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:44:10,129 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:44:45,561 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:44:45,561 - prepare_env - INFO - ==============================================
+2016-09-02 02:44:45,561 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:44:45,561 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:44:45,561 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:44:45,561 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:44:45,561 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:44:45,561 - prepare_env - INFO - ==============================================
+2016-09-02 02:44:45,562 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:44:45,562 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:44:45,562 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:44:45,562 - prepare_env - INFO - ==============================================
+2016-09-02 02:44:45,562 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:44:45,562 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:44:45,562 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:44:46,568 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:44:48,620 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:44:48,620 - prepare_env - INFO - ==============================================
+2016-09-02 02:44:48,620 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:44:48,620 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:44:48,621 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:44:48,621 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:44:48,621 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:44:48,621 - prepare_env - INFO - ==============================================
+2016-09-02 02:44:48,621 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:44:48,621 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:44:48,621 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:44:48,621 - prepare_env - INFO - ==============================================
+2016-09-02 02:44:48,621 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:44:48,621 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:44:48,621 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:44:49,599 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:48:34,688 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:48:34,688 - prepare_env - INFO - ==============================================
+2016-09-02 02:48:34,688 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:48:34,688 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:48:34,688 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:48:34,688 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:48:34,689 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:48:34,689 - prepare_env - INFO - ==============================================
+2016-09-02 02:48:34,689 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:48:34,689 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:48:34,689 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:48:34,689 - prepare_env - INFO - ==============================================
+2016-09-02 02:48:34,689 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:48:34,689 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:48:34,689 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:48:35,662 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:48:37,652 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:48:37,652 - prepare_env - INFO - ==============================================
+2016-09-02 02:48:37,653 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:48:37,653 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:48:37,653 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:48:37,653 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:48:37,653 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:48:37,653 - prepare_env - INFO - ==============================================
+2016-09-02 02:48:37,653 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:48:37,653 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:48:37,653 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:48:37,653 - prepare_env - INFO - ==============================================
+2016-09-02 02:48:37,653 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:48:37,654 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:48:37,654 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:48:38,635 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:50:38,376 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:50:38,376 - prepare_env - INFO - ==============================================
+2016-09-02 02:50:38,376 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:50:38,376 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:50:38,376 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:50:38,376 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:50:38,376 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:50:38,377 - prepare_env - INFO - ==============================================
+2016-09-02 02:50:38,377 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:50:38,377 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:50:38,377 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:50:38,377 - prepare_env - INFO - ==============================================
+2016-09-02 02:50:38,377 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:50:38,377 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:50:38,377 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:50:39,351 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:50:41,301 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:50:41,301 - prepare_env - INFO - ==============================================
+2016-09-02 02:50:41,301 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:50:41,302 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:50:41,302 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:50:41,302 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:50:41,302 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:50:41,302 - prepare_env - INFO - ==============================================
+2016-09-02 02:50:41,302 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:50:41,302 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:50:41,302 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:50:41,302 - prepare_env - INFO - ==============================================
+2016-09-02 02:50:41,302 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:50:41,302 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:50:41,303 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:50:42,292 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:51:52,678 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:51:52,679 - prepare_env - INFO - ==============================================
+2016-09-02 02:51:52,679 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:51:52,679 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:51:52,679 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:51:52,679 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:51:52,679 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:51:52,679 - prepare_env - INFO - ==============================================
+2016-09-02 02:51:52,679 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:51:52,679 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:51:52,679 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:51:52,680 - prepare_env - INFO - ==============================================
+2016-09-02 02:51:52,680 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:51:52,680 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:51:52,680 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:51:53,645 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:51:55,588 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:51:55,588 - prepare_env - INFO - ==============================================
+2016-09-02 02:51:55,588 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:51:55,588 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:51:55,588 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:51:55,588 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:51:55,589 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:51:55,589 - prepare_env - INFO - ==============================================
+2016-09-02 02:51:55,589 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:51:55,589 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:51:55,589 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:51:55,589 - prepare_env - INFO - ==============================================
+2016-09-02 02:51:55,589 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:51:55,589 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:51:55,589 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:51:56,585 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:52:26,629 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:52:26,629 - prepare_env - INFO - ==============================================
+2016-09-02 02:52:26,629 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:52:26,629 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:52:26,629 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:52:26,629 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:52:26,629 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:52:26,629 - prepare_env - INFO - ==============================================
+2016-09-02 02:52:26,630 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:52:26,630 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:52:26,630 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:52:26,630 - prepare_env - INFO - ==============================================
+2016-09-02 02:52:26,630 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:52:26,630 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:52:26,630 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:52:27,616 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:52:29,645 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:52:29,645 - prepare_env - INFO - ==============================================
+2016-09-02 02:52:29,645 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:52:29,645 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:52:29,645 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:52:29,645 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:52:29,646 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:52:29,646 - prepare_env - INFO - ==============================================
+2016-09-02 02:52:29,646 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:52:29,646 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:52:29,646 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:52:29,646 - prepare_env - INFO - ==============================================
+2016-09-02 02:52:29,646 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:52:29,646 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:52:29,646 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:52:30,632 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:53:07,578 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:53:07,578 - prepare_env - INFO - ==============================================
+2016-09-02 02:53:07,578 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:53:07,578 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:53:07,578 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:53:07,578 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:53:07,578 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:53:07,578 - prepare_env - INFO - ==============================================
+2016-09-02 02:53:07,579 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:53:07,579 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:53:07,579 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:53:07,579 - prepare_env - INFO - ==============================================
+2016-09-02 02:53:07,579 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:53:07,579 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:53:07,579 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:53:08,567 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 02:53:10,503 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 02:53:10,503 - prepare_env - INFO - ==============================================
+2016-09-02 02:53:10,503 - prepare_env - INFO - Checking environment variables...
+2016-09-02 02:53:10,503 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 02:53:10,503 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 02:53:10,503 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 02:53:10,504 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 02:53:10,504 - prepare_env - INFO - ==============================================
+2016-09-02 02:53:10,504 - prepare_env - INFO - Creating needed directories...
+2016-09-02 02:53:10,504 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 02:53:10,504 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 02:53:10,504 - prepare_env - INFO - ==============================================
+2016-09-02 02:53:10,504 - prepare_env - INFO - Fetching RC file...
+2016-09-02 02:53:10,504 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 02:53:10,504 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 02:53:11,499 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 03:40:15,158 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 03:40:15,158 - prepare_env - INFO - ==============================================
+2016-09-02 03:40:15,158 - prepare_env - INFO - Checking environment variables...
+2016-09-02 03:40:15,158 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 03:40:15,158 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 03:40:15,158 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 03:40:15,158 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 03:40:15,158 - prepare_env - INFO - ==============================================
+2016-09-02 03:40:15,159 - prepare_env - INFO - Creating needed directories...
+2016-09-02 03:40:15,159 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 03:40:15,159 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 03:40:15,159 - prepare_env - INFO - ==============================================
+2016-09-02 03:40:15,159 - prepare_env - INFO - Fetching RC file...
+2016-09-02 03:40:15,159 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 03:40:15,159 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 03:40:16,149 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 03:40:18,220 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 03:40:18,220 - prepare_env - INFO - ==============================================
+2016-09-02 03:40:18,220 - prepare_env - INFO - Checking environment variables...
+2016-09-02 03:40:18,220 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 03:40:18,220 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 03:40:18,220 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 03:40:18,220 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 03:40:18,220 - prepare_env - INFO - ==============================================
+2016-09-02 03:40:18,221 - prepare_env - INFO - Creating needed directories...
+2016-09-02 03:40:18,221 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 03:40:18,221 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 03:40:18,221 - prepare_env - INFO - ==============================================
+2016-09-02 03:40:18,221 - prepare_env - INFO - Fetching RC file...
+2016-09-02 03:40:18,221 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 03:40:18,221 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 03:40:19,211 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 03:40:21,149 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 03:40:21,149 - prepare_env - INFO - ==============================================
+2016-09-02 03:40:21,149 - prepare_env - INFO - Checking environment variables...
+2016-09-02 03:40:21,149 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 03:40:21,149 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 03:40:21,149 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 03:40:21,149 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 03:40:21,149 - prepare_env - INFO - ==============================================
+2016-09-02 03:40:21,149 - prepare_env - INFO - Creating needed directories...
+2016-09-02 03:40:21,150 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 03:40:21,150 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 03:40:21,150 - prepare_env - INFO - ==============================================
+2016-09-02 03:40:21,150 - prepare_env - INFO - Fetching RC file...
+2016-09-02 03:40:21,150 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 03:40:21,150 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 03:40:22,140 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 07:12:17,464 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 07:12:17,464 - prepare_env - INFO - ==============================================
+2016-09-02 07:12:17,464 - prepare_env - INFO - Checking environment variables...
+2016-09-02 07:12:17,464 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 07:12:17,464 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 07:12:17,464 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 07:12:17,464 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 07:12:17,464 - prepare_env - INFO - ==============================================
+2016-09-02 07:12:17,464 - prepare_env - INFO - Creating needed directories...
+2016-09-02 07:12:17,464 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 07:12:17,465 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 07:12:17,465 - prepare_env - INFO - ==============================================
+2016-09-02 07:12:17,465 - prepare_env - INFO - Fetching RC file...
+2016-09-02 07:12:17,465 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 07:12:17,465 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 07:12:18,468 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 07:12:20,719 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 07:12:20,719 - prepare_env - INFO - ==============================================
+2016-09-02 07:12:20,719 - prepare_env - INFO - Checking environment variables...
+2016-09-02 07:12:20,720 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 07:12:20,720 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 07:12:20,720 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 07:12:20,720 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 07:12:20,720 - prepare_env - INFO - ==============================================
+2016-09-02 07:12:20,720 - prepare_env - INFO - Creating needed directories...
+2016-09-02 07:12:20,720 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 07:12:20,720 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 07:12:20,720 - prepare_env - INFO - ==============================================
+2016-09-02 07:12:20,720 - prepare_env - INFO - Fetching RC file...
+2016-09-02 07:12:20,720 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 07:12:20,720 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 07:12:21,718 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 07:12:23,874 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 07:12:23,875 - prepare_env - INFO - ==============================================
+2016-09-02 07:12:23,875 - prepare_env - INFO - Checking environment variables...
+2016-09-02 07:12:23,875 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 07:12:23,875 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 07:12:23,875 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 07:12:23,875 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 07:12:23,875 - prepare_env - INFO - ==============================================
+2016-09-02 07:12:23,875 - prepare_env - INFO - Creating needed directories...
+2016-09-02 07:12:23,875 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 07:12:23,875 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 07:12:23,875 - prepare_env - INFO - ==============================================
+2016-09-02 07:12:23,876 - prepare_env - INFO - Fetching RC file...
+2016-09-02 07:12:23,876 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 07:12:23,876 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 07:12:24,867 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 07:14:20,865 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 07:14:20,866 - prepare_env - INFO - ==============================================
+2016-09-02 07:14:20,866 - prepare_env - INFO - Checking environment variables...
+2016-09-02 07:14:20,866 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 07:14:20,866 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 07:14:20,866 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 07:14:20,866 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 07:14:20,866 - prepare_env - INFO - ==============================================
+2016-09-02 07:14:20,866 - prepare_env - INFO - Creating needed directories...
+2016-09-02 07:14:20,866 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 07:14:20,866 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 07:14:20,867 - prepare_env - INFO - ==============================================
+2016-09-02 07:14:20,867 - prepare_env - INFO - Fetching RC file...
+2016-09-02 07:14:20,867 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 07:14:20,867 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 07:14:21,860 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 07:14:23,908 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 07:14:23,908 - prepare_env - INFO - ==============================================
+2016-09-02 07:14:23,908 - prepare_env - INFO - Checking environment variables...
+2016-09-02 07:14:23,908 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 07:14:23,908 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 07:14:23,908 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 07:14:23,908 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 07:14:23,908 - prepare_env - INFO - ==============================================
+2016-09-02 07:14:23,908 - prepare_env - INFO - Creating needed directories...
+2016-09-02 07:14:23,909 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 07:14:23,909 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 07:14:23,909 - prepare_env - INFO - ==============================================
+2016-09-02 07:14:23,909 - prepare_env - INFO - Fetching RC file...
+2016-09-02 07:14:23,909 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 07:14:23,909 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 07:14:24,899 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-02 07:14:27,117 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-02 07:14:27,117 - prepare_env - INFO - ==============================================
+2016-09-02 07:14:27,117 - prepare_env - INFO - Checking environment variables...
+2016-09-02 07:14:27,118 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-02 07:14:27,118 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-02 07:14:27,118 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-02 07:14:27,118 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-02 07:14:27,118 - prepare_env - INFO - ==============================================
+2016-09-02 07:14:27,118 - prepare_env - INFO - Creating needed directories...
+2016-09-02 07:14:27,118 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-02 07:14:27,118 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-02 07:14:27,118 - prepare_env - INFO - ==============================================
+2016-09-02 07:14:27,118 - prepare_env - INFO - Fetching RC file...
+2016-09-02 07:14:27,118 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-02 07:14:27,119 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-02 07:14:28,105 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-05 02:17:28,592 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-05 02:17:28,592 - prepare_env - INFO - ==============================================
+2016-09-05 02:17:28,592 - prepare_env - INFO - Checking environment variables...
+2016-09-05 02:17:28,592 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-05 02:17:28,593 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-05 02:17:28,593 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-05 02:17:28,593 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-05 02:17:28,593 - prepare_env - INFO - ==============================================
+2016-09-05 02:17:28,593 - prepare_env - INFO - Creating needed directories...
+2016-09-05 02:17:28,593 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-05 02:17:28,593 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-05 02:17:28,593 - prepare_env - INFO - ==============================================
+2016-09-05 02:17:28,593 - prepare_env - INFO - Fetching RC file...
+2016-09-05 02:17:28,593 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-05 02:17:28,593 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-05 02:17:29,583 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-05 02:17:31,621 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-05 02:17:31,622 - prepare_env - INFO - ==============================================
+2016-09-05 02:17:31,622 - prepare_env - INFO - Checking environment variables...
+2016-09-05 02:17:31,622 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-05 02:17:31,622 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-05 02:17:31,622 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-05 02:17:31,622 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-05 02:17:31,622 - prepare_env - INFO - ==============================================
+2016-09-05 02:17:31,622 - prepare_env - INFO - Creating needed directories...
+2016-09-05 02:17:31,622 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-05 02:17:31,622 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-05 02:17:31,622 - prepare_env - INFO - ==============================================
+2016-09-05 02:17:31,623 - prepare_env - INFO - Fetching RC file...
+2016-09-05 02:17:31,623 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-05 02:17:31,623 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-05 02:17:32,607 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
+2016-09-05 02:17:34,647 - prepare_env - INFO - ######### Preparing Functest environment #########
+
+2016-09-05 02:17:34,647 - prepare_env - INFO - ==============================================
+2016-09-05 02:17:34,647 - prepare_env - INFO - Checking environment variables...
+2016-09-05 02:17:34,647 - prepare_env - INFO -     INSTALLER_TYPE=compass
+2016-09-05 02:17:34,648 - prepare_env - WARNING - The env variable 'INSTALLER_IP' is not defined. It is needed to fetch the OpenStack credentials. If the credentials are not provided to the container as a volume, please add this env variable to the 'docker run' command.
+2016-09-05 02:17:34,648 - prepare_env - WARNING - The env variable 'DEPLOY_SCENARIO' is not defined. Setting CE_SCENARIO=undefined.
+2016-09-05 02:17:34,648 - prepare_env - INFO -     CI_DEBUG=true
+2016-09-05 02:17:34,648 - prepare_env - INFO - ==============================================
+2016-09-05 02:17:34,648 - prepare_env - INFO - Creating needed directories...
+2016-09-05 02:17:34,648 - prepare_env - DEBUG -    /home/opnfv/functest/conf already exists.
+2016-09-05 02:17:34,648 - prepare_env - DEBUG -    /home/opnfv/functest/data already exists.
+2016-09-05 02:17:34,648 - prepare_env - INFO - ==============================================
+2016-09-05 02:17:34,648 - prepare_env - INFO - Fetching RC file...
+2016-09-05 02:17:34,648 - prepare_env - INFO - RC file not provided. Fetching it from the installer...
+2016-09-05 02:17:34,648 - prepare_env - ERROR - The env variable CI_INSTALLER_IP must be provided in order to fetch the credentials from the installer.
+2016-09-05 02:17:35,640 - run_tests - ERROR - RC file /home/opnfv/functest/conf/openstack.creds does not exist...
