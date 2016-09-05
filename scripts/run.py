@@ -15,6 +15,8 @@ import os
 import utils.dovetail_logger as dt_logger
 import utils.dovetail_utils as dt_utils
 
+from container import Container 
+
 logger = dt_logger.Logger('run.py').getLogger()
 
 CERT_PATH = './cert/'
@@ -54,15 +56,6 @@ def download_upstream():
     #dt_utils.exec_cmd(cmd,logger)
     dt_utils.exec_cmd('echo download_upstream',logger)
 
-def create_container(container_type):
-    #sshkey="-v /root/.ssh/id_rsa:/root/.ssh/id_rsa "
-    sshkey = ''
-    result_volume = ' -v /home/opnfv/dovetail/results:/home/opnfv/functest/results '
-    cmd = 'sudo docker run --privileged=true -id -e INSTALLER_TYPE=compass -e CI_DEBUG=true '+ result_volume + sshkey + FUNCTEST_DOCKER_IMAGE+' /bin/bash'
-    dt_utils.exec_cmd(cmd,logger)
-    ret, container_id=dt_utils.exec_cmd("sudo docker ps | grep "+FUNCTEST_DOCKER_IMAGE + " | awk '{print $1}' | head -1",logger)
-    return container_id
-
 def get_container():
     return None
 
@@ -74,11 +67,9 @@ def run_test(scenario, testcases):
     result_list = []
     for testcase in scenario['testcase_list']:
         logger.info('>>[testcase]: %s' % (testcase))
-        ret,content = dt_utils.exec_cmd('ls',logger)
-        logger.info('<<[result]: %s' % ret)
         container_id = get_container()
         if not container_id:
-            container_id = create_container(testcases[testcase]['scripts']['type'])
+            container_id = Container.create(testcases[testcase]['scripts']['type'])
         logger.debug('container id:%s' % container_id)
         
         result = get_result()
