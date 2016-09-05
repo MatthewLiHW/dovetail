@@ -17,7 +17,7 @@ import utils.dovetail_utils as dt_utils
 
 logger = dt_logger.Logger('run.py').getLogger()
 
-CERT_PATH = './certification.yml'
+CERT_PATH = './cert/'
 TESTCASE_PATH = './testcase/'
 FUNCTEST_DOCKER_IMAGE = 'opnfv/functest:latest'
 
@@ -28,15 +28,16 @@ def load_certification():
     logger.debug(cert_yaml)
     return cert_yaml
 
-def load_scenario(scenario, cert_yaml):
-    if cert_yaml is not None:
-        scenario_yaml = cert_yaml['certification_'+scenario]
-    else:
-        with open('cert/'+scenario) as f: 
-            scenario_yaml = yaml.safe_load(f)
+def load_scenario(scenario):
+    scenario_list = {}
+    for root, dirs, files in os.walk(CERT_PATH):
+        for scenario_yaml in files:
+            with open(os.path.join(root, scenario_yaml)) as f: 
+                scenario_yaml = yaml.safe_load(f)
+                scenario_list.update(scenario_yaml)
             
-    logger.debug(scenario_yaml)
-    return scenario_yaml
+    logger.debug(scenario_list)
+    return scenario_list['certification_%s' % scenario]
 
 def load_testcase():
     testcase_list = {}
@@ -141,9 +142,9 @@ def main(scenario):
     logger.info('=======================================')
     logger.info('Dovetail certification: %s!' % scenario)
     logger.info('=======================================')
-    cert = load_certification()
+    #cert = load_certification()
     testcases = load_testcase()
-    scenario_yaml = load_scenario(scenario, cert)
+    scenario_yaml = load_scenario(scenario)
     download_upstream()
     result_list = run_test(scenario_yaml,testcases)
     generate_report(result_list, scenario_yaml, testcases)
