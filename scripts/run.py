@@ -1,5 +1,16 @@
+#!/usr/bin/env python
+#
+# grakiss.wanglei@huawei.com
+# All rights reserved. This program and the accompanying materials
+# are made available under the terms of the Apache License, Version 2.0
+# which accompanies this distribution, and is available at
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+
+
 import click
 import yaml
+import os
 
 import utils.dovetail_logger as dt_logger
 import utils.dovetail_utils as dt_utils
@@ -7,11 +18,8 @@ import utils.dovetail_utils as dt_utils
 logger = dt_logger.Logger('run.py').getLogger()
 
 CERT_PATH = './certification.yml'
-TESTCASE_PATH = './testcases.yml'
+TESTCASE_PATH = './testcase/'
 FUNCTEST_DOCKER_IMAGE = 'opnfv/functest:latest'
-
-
-
 
 
 def load_certification():
@@ -24,16 +32,21 @@ def load_scenario(scenario, cert_yaml):
     if cert_yaml is not None:
         scenario_yaml = cert_yaml['certification_'+scenario]
     else:
-        with open('cert/'+scenario) as f:
+        with open('cert/'+scenario) as f: 
             scenario_yaml = yaml.safe_load(f)
+            
     logger.debug(scenario_yaml)
     return scenario_yaml
 
 def load_testcase():
-    with open(TESTCASE_PATH) as f:
-        testcase_yaml = yaml.safe_load(f)
-    logger.debug( testcase_yaml )
-    return testcase_yaml
+    testcase_list = {}
+    for root, dirs, files in os.walk(TESTCASE_PATH):
+        for testcase_file in files:
+            with open(os.path.join(root, testcase_file)) as f:
+                testcase_yaml = yaml.safe_load(f)
+                testcase_list.update(testcase_yaml)
+    logger.debug( testcase_list )
+    return testcase_list
 
 def download_upstream():
     cmd = 'sudo docker pull '+ FUNCTEST_DOCKER_IMAGE 

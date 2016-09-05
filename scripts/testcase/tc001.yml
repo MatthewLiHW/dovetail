@@ -1,0 +1,8 @@
+dovetail.tc001:
+  name: dovetail.tc001
+  description: testing for vping using ssh 
+  scripts:
+    type: functest
+    testcase: vping_ssh
+    sub_testcase_list: 
+
