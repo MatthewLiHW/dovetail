@@ -1,5 +1,5 @@
-dovetail.tc002:
-  name: dovetail.tc002
+dovetail.feature.tc002:
+  name: dovetail.feature.tc002
   description: testing for vping using userdata
   scripts:
     type: functest

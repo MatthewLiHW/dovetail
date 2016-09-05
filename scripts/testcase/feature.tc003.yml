@@ -1,5 +1,5 @@
-dovetail.tc003:
-  name: dovetail.tc003
+dovetail.feature.tc003:
+  name: dovetail.feature.tc003
   description: testing for bulk network operations
   scripts:
     type: functest
