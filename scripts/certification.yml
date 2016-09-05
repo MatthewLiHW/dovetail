@@ -1,7 +1,7 @@
 certification_basic:
   name: certification_basic
   testcase_list:
-    - dovetail.tc001
-    - dovetail.tc002
-    - dovetail.tc003  
+    - dovetail.feature.tc001
+    - dovetail.feature.tc002
+    - dovetail.feature.tc003  
 
