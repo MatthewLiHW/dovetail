@@ -1,16 +1,29 @@
+.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. http://creativecommons.org/licenses/by/4.0
+.. (c) OPNFV and others
+
+===================================================================
+Dovetail VIM operations tc001 specification - Show Server Details 
+===================================================================
+
+
 .. table::
    :class: longtable
 
 +---------------------------+-----------------------------------------------------------------------------+
 |test case                  |Show server details                                                          |
 +---------------------------+-----------------------------------------------------------------------------+
-|id                         |dovetail.vim.tc0001                                                          |
+|id                         |dovetail.vimops.tc0001                                                       |
 +---------------------------+-----------------------------------------------------------------------------+
 |description                |Basic server operations in the compute API                                   |
 +---------------------------+-----------------------------------------------------------------------------+
 |modules under test         |nova                                                                         |
 +---------------------------+-----------------------------------------------------------------------------+
 |dependent test project     |functest/tempest                                                             |
++---------------------------+-----------------------------------------------------------------------------+
+|test items                 |tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.   |
+|                           |test_get_non_existent_server:                                                |
+|                           |{idempotent_id: 3436b02f-1b1e-4f03-881e-c6a602327439}                        |
 +---------------------------+-----------------------------------------------------------------------------+
 |environmental requirements |Openstack                                                                    |
 |& preconditions            |                                                                             |
@@ -22,10 +35,6 @@
 |input specifications       |NA                                                                           |
 +---------------------------+-----------------------------------------------------------------------------+
 |output specifications      |NA                                                                           |
-+---------------------------+-----------------------------------------------------------------------------+
-|test items                 |tempest.api.compute.servers.test_servers_negative.ServersNegativeTestJSON.   |
-|                           |test_get_non_existent_server:                                                | 
-|                           |{id: 3436b02f-1b1e-4f03-881e-c6a602327439}                                   |
 +---------------------------+-----------------------------------------------------------------------------+
 |pass fail criteria         |All tests are passed                                                         |
 +---------------------------+-----------------------------------------------------------------------------+
