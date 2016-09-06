@@ -2,33 +2,33 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) OPNFV and others
 
-=====================================================================================
-Dovetail IPv6 tc005 specification - Show Information of an IPv6 Network and Subnet
-=====================================================================================
+==================================================================================
+Dovetail IPv6 tc004 specification - List IPv6 Networks and Subnets of a Tenant
+==================================================================================
 
 .. table::
    :class: longtable
 
 +-----------------------+----------------------------------------------------------------------------------------------------+
-|test case name         |show information of an IPv6 network and subnet                                                      |
+|test case name         |list IPv6 networks and subnets of a tenant                                                          |
 |                       |                                                                                                    |
 +-----------------------+----------------------------------------------------------------------------------------------------+
-|id                     |dovetail.ipv6.tc005                                                                                 |
+|id                     |dovetail.ipv6.tc004                                                                                 |
 +-----------------------+----------------------------------------------------------------------------------------------------+
-|objective              |VIM ipv6 operations, to show information of an IPv6 network and subnet                              |
+|objective              |VIM ipv6 operations, to list IPv6 networks and subnets of a tenant                                  |
 +-----------------------+----------------------------------------------------------------------------------------------------+
 |modules under test     |neutron, nova, etc                                                                                  |
 +-----------------------+----------------------------------------------------------------------------------------------------+
 |dependent test project |tempest(openstack)/functest(OPNFV)                                                                  |
 +-----------------------+----------------------------------------------------------------------------------------------------+
-|test items             |tempest.api.network.test_networks.NetworksIpV6Test.test_show_network                                |
-|                       |{idempotent_id('2bf13842-c93f-4a69-83ed-717d2ec3b44e')}                                             |
-|                       |tempest.api.network.test_networks.NetworksIpV6Test.test_show_subnet                                 |
-|                       |{idempotent_id('bd635d81-6030-4dd1-b3b9-31ba0cfdf6cc')}                                             |
-|                       |tempest.api.network.test_networks.NetworksIpV6TestAttrs.test_show_network                           |
-|                       |{idempotent_id('2bf13842-c93f-4a69-83ed-717d2ec3b44e')}                                             |
-|                       |tempest.api.network.test_networks.NetworksIpV6TestAttrs.test_show_subnet                            |
-|                       |{idempotent_id('bd635d81-6030-4dd1-b3b9-31ba0cfdf6cc')}                                             |
+|test items             |tempest.api.network.test_networks.NetworksIpV6Test.test_list_networks                               |
+|                       |idempotent_id('f7ffdeda-e200-4a7a-bcbe-05716e86bf43')                                               |
+|                       |tempest.api.network.test_networks.NetworksIpV6Test.test_list_subnets                                |
+|                       |idempotent_id('db68ba48-f4ea-49e9-81d1-e367f6d0b20a')                                               |
+|                       |tempest.api.network.test_networks.NetworksIpV6TestAttrs.test_list_networks                          |
+|                       |idempotent_id('f7ffdeda-e200-4a7a-bcbe-05716e86bf43')                                               |
+|                       |tempest.api.network.test_networks.NetworksIpV6TestAttrs.test_list_subnets                           |
+|                       |idempotent_id('db68ba48-f4ea-49e9-81d1-e367f6d0b20a')                                               |
 +-----------------------+----------------------------------------------------------------------------------------------------+
 |environmental          |                                                                                                    |
 |requirements &         | environment can be deplyed on bare metal of virtualized infrastructure                             |
@@ -37,11 +37,10 @@ Dovetail IPv6 tc005 specification - Show Information of an IPv6 Network and Subn
 +-----------------------+----------------------------------------------------------------------------------------------------+
 |scenario dependencies  | NA                                                                                                 |
 +-----------------------+----------------------------------------------------------------------------------------------------+
-|procedural             |show network:                                                                                       |
-|requirements           |     verify the details of a network                                                                |
-|                       |show subnet:                                                                                        |
-|                       |     verify the details of a subnet                                                                 |
-|                       |                                                                                                    |
+|procedural             |list networks:                                                                                      |
+|requirements           |     verify the networks exists in the list of all networks                                         |
+|                       |list subnets:                                                                                       |
+|                       |     verify the subnet exists in the list of all subnets                                            |
 +-----------------------+----------------------------------------------------------------------------------------------------+
 |input specifications   |NA                                                                                                  |
 +-----------------------+----------------------------------------------------------------------------------------------------+

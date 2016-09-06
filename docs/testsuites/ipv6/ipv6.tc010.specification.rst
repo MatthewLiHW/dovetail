@@ -2,33 +2,27 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) OPNFV and others
 
-=====================================================================================
-Dovetail IPv6 tc005 specification - Show Information of an IPv6 Network and Subnet
-=====================================================================================
+======================================================================
+Dovetail IPv6 tc010 specification - Show Information of an IPv6 Port
+======================================================================
 
 .. table::
    :class: longtable
 
 +-----------------------+----------------------------------------------------------------------------------------------------+
-|test case name         |show information of an IPv6 network and subnet                                                      |
+|test case name         |show information of an IPv6 port                                                                    |
 |                       |                                                                                                    |
 +-----------------------+----------------------------------------------------------------------------------------------------+
-|id                     |dovetail.ipv6.tc005                                                                                 |
+|id                     |dovetail.ipv6.tc010                                                                                 |
 +-----------------------+----------------------------------------------------------------------------------------------------+
-|objective              |VIM ipv6 operations, to show information of an IPv6 network and subnet                              |
+|objective              |VIM ipv6 operations, to show information of an IPv6 port                                            |
 +-----------------------+----------------------------------------------------------------------------------------------------+
 |modules under test     |neutron, nova, etc                                                                                  |
 +-----------------------+----------------------------------------------------------------------------------------------------+
 |dependent test project |tempest(openstack)/functest(OPNFV)                                                                  |
 +-----------------------+----------------------------------------------------------------------------------------------------+
-|test items             |tempest.api.network.test_networks.NetworksIpV6Test.test_show_network                                |
-|                       |{idempotent_id('2bf13842-c93f-4a69-83ed-717d2ec3b44e')}                                             |
-|                       |tempest.api.network.test_networks.NetworksIpV6Test.test_show_subnet                                 |
-|                       |{idempotent_id('bd635d81-6030-4dd1-b3b9-31ba0cfdf6cc')}                                             |
-|                       |tempest.api.network.test_networks.NetworksIpV6TestAttrs.test_show_network                           |
-|                       |{idempotent_id('2bf13842-c93f-4a69-83ed-717d2ec3b44e')}                                             |
-|                       |tempest.api.network.test_networks.NetworksIpV6TestAttrs.test_show_subnet                            |
-|                       |{idempotent_id('bd635d81-6030-4dd1-b3b9-31ba0cfdf6cc')}                                             |
+|test items             |tempest.api.network.test_ports.PortsIpV6TestJSON.test_show_port                                     |
+|                       |idempotent_id('c9a685bd-e83f-499c-939f-9f7863ca259f')                                               |
 +-----------------------+----------------------------------------------------------------------------------------------------+
 |environmental          |                                                                                                    |
 |requirements &         | environment can be deplyed on bare metal of virtualized infrastructure                             |
@@ -37,10 +31,8 @@ Dovetail IPv6 tc005 specification - Show Information of an IPv6 Network and Subn
 +-----------------------+----------------------------------------------------------------------------------------------------+
 |scenario dependencies  | NA                                                                                                 |
 +-----------------------+----------------------------------------------------------------------------------------------------+
-|procedural             |show network:                                                                                       |
-|requirements           |     verify the details of a network                                                                |
-|                       |show subnet:                                                                                        |
-|                       |     verify the details of a subnet                                                                 |
+|procedural             | verify the details of port                                                                         |
+|requirements           |                                                                                                    |
 |                       |                                                                                                    |
 +-----------------------+----------------------------------------------------------------------------------------------------+
 |input specifications   |NA                                                                                                  |
