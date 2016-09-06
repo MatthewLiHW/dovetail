@@ -16,12 +16,9 @@ import utils.dovetail_logger as dt_logger
 import utils.dovetail_utils as dt_utils
 
 from container import Container 
+from conf.dovetail_config import *
 
 logger = dt_logger.Logger('run.py').getLogger()
-
-CERT_PATH = './cert/'
-TESTCASE_PATH = './testcase/'
-FUNCTEST_DOCKER_IMAGE = 'opnfv/functest:latest'
 
 
 def load_certification():
@@ -39,7 +36,7 @@ def load_scenario(scenario):
                 scenario_list.update(scenario_yaml)
             
     logger.debug(scenario_list)
-    return scenario_list['certification_%s' % scenario]
+    return scenario_list[SCENARIO_NAMING_FMT % scenario]
 
 def load_testcase():
     testcase_list = {}
@@ -50,11 +47,6 @@ def load_testcase():
                 testcase_list.update(testcase_yaml)
     logger.debug( testcase_list )
     return testcase_list
-
-def download_upstream():
-    cmd = 'sudo docker pull '+ FUNCTEST_DOCKER_IMAGE 
-    #dt_utils.exec_cmd(cmd,logger)
-    dt_utils.exec_cmd('echo download_upstream',logger)
 
 def get_container():
     return None
@@ -67,6 +59,7 @@ def run_test(scenario, testcases):
     result_list = []
     for testcase in scenario['testcase_list']:
         logger.info('>>[testcase]: %s' % (testcase))
+        Container.pull_image(testcases[testcase]['scripts']['type'])
         container_id = get_container()
         if not container_id:
             container_id = Container.create(testcases[testcase]['scripts']['type'])
@@ -136,7 +129,6 @@ def main(scenario):
     #cert = load_certification()
     testcases = load_testcase()
     scenario_yaml = load_scenario(scenario)
-    download_upstream()
     result_list = run_test(scenario_yaml,testcases)
     generate_report(result_list, scenario_yaml, testcases)
 

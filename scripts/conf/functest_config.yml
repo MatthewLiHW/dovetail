@@ -1,0 +1,3 @@
+image_name: opnfv/functest
+docker_tag: latest
+
