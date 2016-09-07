@@ -1,0 +1,8 @@
+dovetail.vimops.tc065:
+  name: dovetail.vimops.tc065
+  description: CRUD image operations in Images API v2
+  scripts:
+    type: functest
+    testcase: tempest_full_parallel
+    sub_testcase_list: 
+      - tempest.api.image.v2.test_images.ListImagesTest.test_list_no_params
