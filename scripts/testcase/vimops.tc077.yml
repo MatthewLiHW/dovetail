@@ -1,0 +1,10 @@
+dovetail.vimops.tc077:
+  name: dovetail.vimops.tc077
+  description: to assign/unassign role to/from user on project, keystone
+  scripts:
+    type: functest
+    testcase: tempest_full_parallel
+    sub_testcase_list: 
+      - tempest.api.identity.admin.v3.test_inherits.InheritsV3TestJSON.test_inherit_assign_list_check_revoke_roles_on_domains_user
+      - tempest.api.identity.admin.v3.test_inherits.InheritsV3TestJSON.test_inherit_assign_list_check_revoke_roles_on_domains_group
+      - tempest.api.identity.admin.v3.test_inherits.InheritsV3TestJSON.test_inherit_assign_check_revoke_roles_on_projects_group
