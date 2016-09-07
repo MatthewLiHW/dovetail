@@ -21,15 +21,15 @@ Dovetail VIM operations tc073 specification - Project Create
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |dependent test project     |functest/tempest                                                                                               |  
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test items                 |tempest.api.identity.admin.v3.test_project.ProjectsTestJSON.test_project_create_with_description               |
+|test items                 |tempest.api.identity.admin.v3.test_projects.ProjectsTestJSON.test_project_create_with_description              |
 |                           |idempotent_id('0ecf465c-0dc4-4532-ab53-91ffeb74d12d')                                                          |
-|                           |tempest.api.identity.admin.v3.test_project.ProjectsTestJSON.test_project_create_with_domain                    |
+|                           |tempest.api.identity.admin.v3.test_projects.ProjectsTestJSON.test_project_create_with_domain                   |
 |                           |idempotent_id('5f50fe07-8166-430b-a882-3b2ee0abe26f')                                                          |
-|                           |tempest.api.identity.admin.v3.test_project.ProjectsTestJSON.test_project_create_with_parent                    |
+|                           |tempest.api.identity.admin.v3.test_projects.ProjectsTestJSON.test_project_create_with_parent                   |
 |                           |idempotent_id('1854f9c0-70bc-4d11-a08a-1c789d339e3d')                                                          |
-|                           |tempest.api.identity.admin.v3.test_project.ProjectsTestJSON.test_project_create_enabled                        |
+|                           |tempest.api.identity.admin.v3.test_projects.ProjectsTestJSON.test_project_create_enabled                       |
 |                           |idempotent_id('1f66dc76-50cc-4741-a200-af984509e480')                                                          |
-|                           |tempest.api.identity.admin.v3.test_project.ProjectsTestJSON.test_project_create_not_enabled                    |
+|                           |tempest.api.identity.admin.v3.test_projects.ProjectsTestJSON.test_project_create_not_enabled                   |
 |                           |idempotent_id('78f96a9c-e0e0-4ee6-a3ba-fbf6dfd03207')                                                          |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |environmental requirements |Openstack                                                                                                      |
