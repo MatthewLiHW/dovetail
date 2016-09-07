@@ -1,0 +1,12 @@
+dovetail.vimops.tc073:
+  name: dovetail.vimops.tc073
+  description: project create, keystone
+  scripts:
+    type: functest
+    testcase: tempest_full_parallel
+    sub_testcase_list: 
+      - tempest.api.identity.admin.v3.test_projects.ProjectsTestJSON.test_project_create_with_description
+      - tempest.api.identity.admin.v3.test_projects.ProjectsTestJSON.test_project_create_with_domain
+      - tempest.api.identity.admin.v3.test_projects.ProjectsTestJSON.test_project_create_with_parent
+      - tempest.api.identity.admin.v3.test_projects.ProjectsTestJSON.test_project_create_enabled
+      - tempest.api.identity.admin.v3.test_projects.ProjectsTestJSON.test_project_create_not_enabled
