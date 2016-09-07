@@ -1,0 +1,10 @@
+dovetail.vimops.tc071:
+  name: dovetail.vimops.tc071
+  description: Image update tests using the Glance v2 API
+  scripts:
+    type: functest
+    testcase: tempest_full_parallel
+    sub_testcase_list: 
+      - tempest.api.image.v2.test_images.BasicOperationsImagesTest.test_update_image
+      - tempest.api.image.v2.test_images_tags.ImagesTagsTest.test_update_delete_tags_for_image
+      - tempest.api.image.v2.test_images_tags_negative.ImagesTagsNegativeTest.test_update_tags_for_non_existing_image
