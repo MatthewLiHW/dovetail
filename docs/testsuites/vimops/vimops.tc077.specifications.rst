@@ -2,31 +2,34 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) OPNFV and others
 
-===============================================================
-Dovetail VIM operations tc075 specification - Project Delete 
-===============================================================
+===========================================================================================
+Dovetail VIM operations tc077 specification - Assign/Unassign Role to/from User on Project 
+===========================================================================================
 
 
 .. table::
    :class: longtable
 
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test case                  |Project Delete                                                                                                 |
+|test case                  |Assign/Unassign Role to/from User on Project                                                                   |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|id                         |dovetail.vimops.tc075                                                                                          |
+|id                         |dovetail.vimops.tc077                                                                                          |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|objective                  |to delete project, keystone                                                                                    |
+|objective                  |to assign/unassign role to/from user on project, keystone                                                      |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |modules under test         |keystone                                                                                                       |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |dependent test project     |functest/tempest                                                                                               |  
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test items                 |tempest.api.identity.admin.v3.test_projects_negative.ProjectsNegativeTestJSON.                                 |
-|                           |test_project_delete_by_unauthorized_user                                                                       |
-|                           |idempotent_id('8d68c012-89e0-4394-8d6b-ccd7196def97')                                                          |
-|                           |tempest.api.identity.admin.v3.test_projects_negative.ProjectsNegativeTestJSON.                                 |
-|                           |test_delete_non_existent_project                                                                               |
-|                           |idempotent_id('7965b581-60c1-43b7-8169-95d4ab7fc6fb')                                                          |
+|test items                 |tempest.api.identity.admin.v3.test_inherits.InheritsV3TestJSON.                                                |
+|                           |test_inherit_assign_list_check_revoke_roles_on_domains_user                                                    |
+|                           |idempotent_id('4e6f0366-97c8-423c-b2be-41eae6ac91c8')                                                          |
+|                           |test_inherit_assign_list_check_revoke_roles_on_domains_group                                                   |
+|                           |idempotent_id('c7a8dda2-be50-4fb4-9a9c-e830771078b1')                                                          |
+|                           |test_inherit_assign_check_revoke_roles_on_projects_user                                                        |
+|                           |idempotent_id('18b70e45-7687-4b72-8277-b8f1a47d7591')                                                          |
+|                           |test_inherit_assign_check_revoke_roles_on_projects_group                                                       |
+|                           |idempotent_id('26021436-d5a4-4256-943c-ded01e0d4b45')                                                          |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |environmental requirements |Openstack                                                                                                      |
 |& preconditions            |                                                                                                               |
