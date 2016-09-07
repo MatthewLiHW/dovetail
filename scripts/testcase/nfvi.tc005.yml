@@ -1,0 +1,7 @@
+dovetail.nfvi.tc005:
+  name: dovetail.nfvi.tc005
+  description: testing for vping userdata 
+  scripts:
+    type: functest
+    testcase: vping_userdata
+    sub_testcase_list:
