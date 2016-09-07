@@ -13,19 +13,22 @@ Dovetail VIM operations tc070 specification - Glance Images v2 Share
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |test case                  |Glance Images v2 Share                                                                                         |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|id                         |dovetail.vimops.tc065                                                                                          |
+|id                         |dovetail.vimops.tc070                                                                                          |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|objective                  |images create, glance                                                                                          |
+|objective                  |images share, glance                                                                                           |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|modules under test         |nova                                                                                                           |
+|modules under test         |glance                                                                                                         |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |dependent test project     |functest/tempest                                                                                               |  
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test items                 |tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestJSON.test_create_delete_image              |
-|                           |"idempotent_id": "id-3731d080-d4c5-4872-b41a-64d0d0021314"                                                     |
-|                           |tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestJSON.                                      |
-|                           |test_create_image_specify_multibyte_character_image_name                                                       |
-|                           |"idempotent_id": "id-3b7c6fe4-dfe7-477c-9243-b06359db51e6"                                                     |
+|test items                 |tempest.api.image.v2.test_images_member.ImagesMemberTest.test_image_share_accept                               |
+|                           |"idempotent_id": "id-5934c6ea-27dc-4d6e-9421-eeb5e045494a"                                                     |
+|                           |tempest.api.image.v2.test_images_member.ImagesMemberTest.test_image_share_reject                               |
+|                           |"idempotent_id": "id-d9e83e5f-3524-4b38-a900-22abcb26e90e"                                                     |
+|                           |tempest.api.image.v2.test_images_member_negative.ImagesMemberNegativeTest.test_image_share_invalid_status      |
+|                           |"idempotent_id": "id-b79efb37-820d-4cf0-b54c-308b00cf842c"                                                     |
+|                           |tempest.api.image.v2.test_images_member_negative.ImagesMemberNegativeTe                                        |
+|                           |"idempotent_id": "id-27002f74-109e-4a37-acd0-f91cd4597967"                                                     |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |environmental requirements |Openstack                                                                                                      |
 |& preconditions            |                                                                                                               |
