@@ -1,5 +1,5 @@
-dovetail.vimops.tc065:
-  name: dovetail.vimops.tc065
+dovetail.vimops.tc064:
+  name: dovetail.vimops.tc064
   description: Glance Images Create
   scripts:
     type: functest
