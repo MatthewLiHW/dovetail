@@ -1,0 +1,11 @@
+dovetail.vimops.tc072:
+  name: dovetail.vimops.tc072
+  description: samples and meters list, ceilometer
+  scripts:
+    type: functest
+    testcase: tempest_full_parallel
+    sub_testcase_list: 
+      - tempest.api.telemetry.test_telemetry_notification_api.TelemetryNotificationAPITestJSON.test_check_glance_v1_notifications
+      - tempest.api.telemetry.test_telemetry_notification_api.TelemetryNotificationAPITestJSON.test_check_nova_notification
+      - tempest.api.telemetry.test_telemetry_notification_api.TelemetryNotificationAPITestJSON.test_check_glance_v2_notifications
+      - tempest.api.telemetry.test_telemetry_notification_api.TelemetryNotificationAdminAPITestJSON.test_check_nova_notification_event_and_meter 
