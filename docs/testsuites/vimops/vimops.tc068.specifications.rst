@@ -32,7 +32,7 @@ Dovetail VIM operations tc068 specification - Glance Images v2 list
 |                           |tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_size                                    |
 |                           |"idempotent_id": "id-cf1b9a48-8340-480e-af7b-fe7e17690876"                                                     |
 |                           |tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_status                                  |
-|                           | "idempotent_id": "id-7fc9e369-0f58-4d05-9aa5-0969e2d59d15"                                                    |
+|                           |"idempotent_id": "id-7fc9e369-0f58-4d05-9aa5-0969e2d59d15"                                                     |
 |                           |tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_visibility                              |
 |                           |"idempotent_id": "id-7a95bb92-d99e-4b12-9718-7bc6ab73e6d2"                                                     |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
