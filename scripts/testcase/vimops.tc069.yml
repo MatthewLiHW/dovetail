@@ -1,0 +1,8 @@
+dovetail.vimops.tc069:
+  name: dovetail.vimops.tc069
+  description: Image removal tests using the Glance v2 API
+  scripts:
+    type: functest
+    testcase: tempest_full_parallel
+    sub_testcase_list: 
+      - tempest.api.image.v2.test_images_member.ImagesMemberTest.test_remove_image_member
