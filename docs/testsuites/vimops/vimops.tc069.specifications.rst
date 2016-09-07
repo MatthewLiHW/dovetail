@@ -2,30 +2,27 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) OPNFV and others
 
-===================================================================
-Dovetail VIM operations tc065 specification - Glance Images Create 
-===================================================================
+======================================================================
+Dovetail VIM operations tc069 specification - Glance Images v2 Remove 
+======================================================================
 
 
 .. table::
    :class: longtable
 
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test case                  |Glance Images Create                                                                                           |
+|test case                  |Glance Images v2 Remove                                                                                        |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|id                         |dovetail.vimops.tc065                                                                                          |
+|id                         |dovetail.vimops.tc069                                                                                          |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|objective                  |images create, glance                                                                                          |
+|objective                  |Image removal tests using the Glance v2 API                                                                    |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|modules under test         |nova                                                                                                           |
+|modules under test         |glance                                                                                                         |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |dependent test project     |functest/tempest                                                                                               |  
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test items                 |tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestJSON.test_create_delete_image              |
-|                           |"idempotent_id": "id-3731d080-d4c5-4872-b41a-64d0d0021314"                                                     |
-|                           |tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestJSON.                                      |
-|                           |test_create_image_specify_multibyte_character_image_name                                                       |
-|                           |"idempotent_id": "id-3b7c6fe4-dfe7-477c-9243-b06359db51e6"                                                     |
+|test items                 |tempest.api.image.v2.test_images_member.ImagesMemberTest.test_remove_image_member                              |
+|                           |"idempotent_id": "id-72989bc7-2268-48ed-af22-8821e835c914"                                                     |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |environmental requirements |Openstack                                                                                                      |
 |& preconditions            |                                                                                                               |
