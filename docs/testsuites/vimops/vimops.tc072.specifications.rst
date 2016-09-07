@@ -21,11 +21,11 @@ Dovetail VIM operations tc072 specification - Ceilometer Samples and Meters List
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |dependent test project     |functest/tempest                                                                                               |  
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test items                 |tempest.api.telemetry.test_telemetry_notification_api.test_check_glance_v1_notifications                       |
+|test items                 |tempest.api.telemetry.test_telemetry_notification_api.TelemetryNotificationAPITestJSON.test_check_glance_v1_notifications|
 |                           |idempotent_id('04b10bfe-a5dc-47af-b22f-0460426bf498')                                                          |
-|                           |tempest.api.telemetry.test_telemetry_notification_api.test_check_glance_v2_notifications                       |
+|                           |tempest.api.telemetry.test_telemetry_notification_api.TelemetryNotificationAPITestJSON.test_check_glance_v2_notifications|
 |                           |idempotent_id('c240457d-d943-439b-8aea-85e26d64fe8e')                                                          |
-|                           |tempest.api.telemetry.test_telemetry_notification_api.test_check_nova_notification_event_and_meter             |
+|                           |tempest.api.telemetry.test_telemetry_notification_api.TelemetryNotificationAdminAPITestJSON.test_check_nova_notification_event_and_meter|
 |                           |idempotent_id('29604198-8b45-4fc0-8af8-1cae4f94ebe9')                                                          |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |environmental requirements |Openstack                                                                                                      |
