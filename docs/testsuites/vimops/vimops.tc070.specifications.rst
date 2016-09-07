@@ -27,7 +27,8 @@ Dovetail VIM operations tc070 specification - Glance Images v2 Share
 |                           |"idempotent_id": "id-d9e83e5f-3524-4b38-a900-22abcb26e90e"                                                     |
 |                           |tempest.api.image.v2.test_images_member_negative.ImagesMemberNegativeTest.test_image_share_invalid_status      |
 |                           |"idempotent_id": "id-b79efb37-820d-4cf0-b54c-308b00cf842c"                                                     |
-|                           |tempest.api.image.v2.test_images_member_negative.ImagesMemberNegativeTe                                        |
+|                           |tempest.api.image.v2.test_images_member_negative.                                                              |
+|                           |ImagesMemberNegativeTest.test_image_share_owner_cannot_accept                                                  |
 |                           |"idempotent_id": "id-27002f74-109e-4a37-acd0-f91cd4597967"                                                     |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |environmental requirements |Openstack                                                                                                      |
