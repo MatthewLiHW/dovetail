@@ -2,31 +2,29 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) OPNFV and others
 
-===============================================================
-Dovetail VIM operations tc075 specification - Project Delete 
-===============================================================
+=============================================================
+Dovetail VIM operations tc076 specification - User Update 
+=============================================================
 
 
 .. table::
    :class: longtable
 
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test case                  |Project Delete                                                                                                 |
+|test case                  |User Update                                                                                                    |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|id                         |dovetail.vimops.tc075                                                                                          |
+|id                         |dovetail.vimops.tc076                                                                                          |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|objective                  |to delete project, keystone                                                                                    |
+|objective                  |to update user, keystone                                                                                    |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |modules under test         |keystone                                                                                                       |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |dependent test project     |functest/tempest                                                                                               |  
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test items                 |tempest.api.identity.admin.v3.test_projects_negative.ProjectsNegativeTestJSON.                                 |
-|                           |test_project_delete_by_unauthorized_user                                                                       |
-|                           |idempotent_id('8d68c012-89e0-4394-8d6b-ccd7196def97')                                                          |
-|                           |tempest.api.identity.admin.v3.test_projects_negative.ProjectsNegativeTestJSON.                                 |
-|                           |test_delete_non_existent_project                                                                               |
-|                           |idempotent_id('7965b581-60c1-43b7-8169-95d4ab7fc6fb')                                                          |
+|test items                 |tempest.api.identity.admin.v3.test_users.UsersV3TestJSON.test_user_update                                      |
+|                           |idempotent_id('b537d090-afb9-4519-b95d-270b0708e87e')                                                          |
+|                           |tempest.api.identity.admin.v3.test_users.UsersV3TestJSON.test_update_user_password                             |
+|                           |idempotent_id('2d223a0e-e457-4a70-9fb1-febe027a0ff9')                                                          |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |environmental requirements |Openstack                                                                                                      |
 |& preconditions            |                                                                                                               |
