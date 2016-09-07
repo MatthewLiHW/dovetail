@@ -1,0 +1,16 @@
+dovetail.vimops.tc067:
+  name: dovetail.vimops.tc067
+  description: images get, glance
+  scripts:
+    type: functest
+    testcase: tempest_full_parallel
+    sub_testcase_list: 
+      - tempest.api.image.v2.test_images.ListImagesTest.test_get_image_schema
+      - tempest.api.image.v2.test_images.ListImagesTest.test_get_images_schema
+      - tempest.api.image.v2.test_images.ListImagesTest.test_get_images_schema
+      - tempest.api.image.v2.test_images_member.ImagesMemberTest.test_get_image_member_schema
+      - tempest.api.image.v2.test_images_member.ImagesMemberTest.test_get_image_members_schema
+      - tempest.api.image.v2.test_images_negative.ImagesNegativeTest.test_get_delete_deleted_image
+      - tempest.api.image.v2.test_images_negative.ImagesNegativeTest.test_get_image_null_id
+      - tempest.api.image.v2.test_images_negative.ImagesNegativeTest.test_get_non_existent_image
+      - tempest.api.image.v2.test_images_member.ImagesMemberTest.test_get_private_image
