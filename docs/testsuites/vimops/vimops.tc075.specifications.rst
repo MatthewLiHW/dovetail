@@ -2,33 +2,31 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) OPNFV and others
 
-====================================================================
-Dovetail VIM operations tc070 specification - Glance Images v2 Share 
-====================================================================
+===============================================================
+Dovetail VIM operations tc075 specification - Project Delete 
+===============================================================
 
 
 .. table::
    :class: longtable
 
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test case                  |Glance Images v2 Share                                                                                         |
+|test case                  |Project Delete                                                                                                 |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|id                         |dovetail.vimops.tc070                                                                                          |
+|id                         |dovetail.vimops.tc075                                                                                          |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|objective                  |images share, glance                                                                                           |
+|objective                  |to delete project, keystone                                                                                    |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|modules under test         |glance                                                                                                         |
+|modules under test         |keystone                                                                                                       |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |dependent test project     |functest/tempest                                                                                               |  
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test items                 |tempest.api.image.v2.test_images_member.ImagesMemberTest.test_image_share_accept                               |
-|                           |"idempotent_id": "id-5934c6ea-27dc-4d6e-9421-eeb5e045494a"                                                     |
-|                           |tempest.api.image.v2.test_images_member.ImagesMemberTest.test_image_share_reject                               |
-|                           |"idempotent_id": "id-d9e83e5f-3524-4b38-a900-22abcb26e90e"                                                     |
-|                           |tempest.api.image.v2.test_images_member_negative.ImagesMemberNegativeTest.test_image_share_invalid_status      |
-|                           |"idempotent_id": "id-b79efb37-820d-4cf0-b54c-308b00cf842c"                                                     |
-|                           |tempest.api.image.v2.test_images_member_negative.ImagesMemberNegativeTe                                        |
-|                           |"idempotent_id": "id-27002f74-109e-4a37-acd0-f91cd4597967"                                                     |
+|test items                 |tempest.api.identity.admin.v3.test_projects_negative.ProjectsNegativeTestJSON.                                 |
+|                           |test_project_delete_by_unauthorized_user                                                                       |
+|                           |idempotent_id('8d68c012-89e0-4394-8d6b-ccd7196def97')                                                          |
+|                           |tempest.api.identity.admin.v3.test_projects_negative.ProjectsNegativeTestJSON.                                 |
+|                           |test_delete_non_existent_project                                                                               |
+|                           |idempotent_id('7965b581-60c1-43b7-8169-95d4ab7fc6fb')                                                          |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |environmental requirements |Openstack                                                                                                      |
 |& preconditions            |                                                                                                               |
