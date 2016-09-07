@@ -2,33 +2,31 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) OPNFV and others
 
-====================================================================
-Dovetail VIM operations tc070 specification - Glance Images v2 Share 
-====================================================================
+================================================================================
+Dovetail VIM operations tc072 specification - Ceilometer Samples and Meters List
+================================================================================
 
 
 .. table::
    :class: longtable
 
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test case                  |Glance Images v2 Share                                                                                         |
+|test case                  |Ceilometer Samples and Meters List                                                                             |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|id                         |dovetail.vimops.tc070                                                                                          |
+|id                         |dovetail.vimops.tc072                                                                                          |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|objective                  |images share, glance                                                                                           |
+|objective                  |samples and meters list, ceilometer                                                                            |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|modules under test         |glance                                                                                                         |
+|modules under test         |ceilometer                                                                                                     |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |dependent test project     |functest/tempest                                                                                               |  
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
-|test items                 |tempest.api.image.v2.test_images_member.ImagesMemberTest.test_image_share_accept                               |
-|                           |"idempotent_id": "id-5934c6ea-27dc-4d6e-9421-eeb5e045494a"                                                     |
-|                           |tempest.api.image.v2.test_images_member.ImagesMemberTest.test_image_share_reject                               |
-|                           |"idempotent_id": "id-d9e83e5f-3524-4b38-a900-22abcb26e90e"                                                     |
-|                           |tempest.api.image.v2.test_images_member_negative.ImagesMemberNegativeTest.test_image_share_invalid_status      |
-|                           |"idempotent_id": "id-b79efb37-820d-4cf0-b54c-308b00cf842c"                                                     |
-|                           |tempest.api.image.v2.test_images_member_negative.ImagesMemberNegativeTe                                        |
-|                           |"idempotent_id": "id-27002f74-109e-4a37-acd0-f91cd4597967"                                                     |
+|test items                 |tempest.api.telemetry.test_telemetry_notification_api.test_check_glance_v1_notifications                       |
+|                           |idempotent_id('04b10bfe-a5dc-47af-b22f-0460426bf498')                                                          |
+|                           |tempest.api.telemetry.test_telemetry_notification_api.test_check_glance_v2_notifications                       |
+|                           |idempotent_id('c240457d-d943-439b-8aea-85e26d64fe8e')                                                          |
+|                           |tempest.api.telemetry.test_telemetry_notification_api.test_check_nova_notification_event_and_meter             |
+|                           |idempotent_id('29604198-8b45-4fc0-8af8-1cae4f94ebe9')                                                          |
 +---------------------------+---------------------------------------------------------------------------------------------------------------+
 |environmental requirements |Openstack                                                                                                      |
 |& preconditions            |                                                                                                               |
