@@ -1,0 +1,9 @@
+dovetail.vimops.tc065:
+  name: dovetail.vimops.tc065
+  description: Glance Images Create
+  scripts:
+    type: functest
+    testcase: tempest_full_parallel
+    sub_testcase_list: 
+      - tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestJSON.test_create_delete_image
+      - tempest.api.compute.images.test_images_oneserver.ImagesOneServerTestJSON.test_create_image_specify_multibyte_character_image_name
