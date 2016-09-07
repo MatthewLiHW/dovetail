@@ -1,0 +1,14 @@
+dovetail.vimops.tc068:
+  name: dovetail.vimops.tc068
+  description: images list, glance
+  scripts:
+    type: functest
+    testcase: tempest_full_parallel
+    sub_testcase_list: 
+      - tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_container_format 
+      - tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_disk_format
+      - tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_limit
+      - tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_min_max_size
+      - tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_size
+      - tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_status
+      - tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_visibility
