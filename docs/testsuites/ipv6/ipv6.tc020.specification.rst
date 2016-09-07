@@ -21,7 +21,7 @@ Dovetail IPv6 tc020 specification - IPv6 Address Assignment - Multiple Prefixes,
 +-----------------------+----------------------------------------------------------------------------------------------------+
 |dependent test project |tempest(openstack)/functest(OPNFV)                                                                  |
 +-----------------------+----------------------------------------------------------------------------------------------------+
-|test items             | tempest.scenario.test_network_v6.TestGettingAddress.test_multi_prefix_dhcpv6_stateless             |
+|test items             |tempest.scenario.test_network_v6.TestGettingAddress.test_multi_prefix_dhcpv6_stateless              |
 |                       |idempotent_id('7ab23f41-833b-4a16-a7c9-5b42fe6d4123')                                               |
 +-----------------------+----------------------------------------------------------------------------------------------------+
 |environmental          |                                                                                                    |
