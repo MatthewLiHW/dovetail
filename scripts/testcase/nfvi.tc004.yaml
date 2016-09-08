@@ -1,5 +1,5 @@
-dovetail.feature.tc001:
-  name: dovetail.feature.tc001
+dovetail.nfvi.tc004:
+  name: dovetail.nfvi.tc004
   description: testing for vping using ssh 
   scripts:
     type: functest
