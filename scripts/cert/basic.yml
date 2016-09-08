@@ -3,4 +3,45 @@ certification_basic:
   testcase_list:
     - dovetail.feature.tc001
     - dovetail.feature.tc002
-    - dovetail.feature.tc003 
+    - dovetail.feature.tc003
+    - dovetail.vimops.tc064
+    - dovetail.vimops.tc065
+    - dovetail.vimops.tc066
+    - dovetail.vimops.tc067
+    - dovetail.vimops.tc068
+    - dovetail.vimops.tc069
+    - dovetail.vimops.tc070
+    - dovetail.vimops.tc071
+    - dovetail.vimops.tc072
+    - dovetail.vimops.tc073
+    - dovetail.vimops.tc074
+    - dovetail.vimops.tc075
+    - dovetail.vimops.tc076
+    - dovetail.vimops.tc077
+    - dovetail.nfvi.tc004
+    - dovetail.nfvi.tc005
+    - dovetail.ipv6.tc001
+    - dovetail.ipv6.tc002
+    - dovetail.ipv6.tc003
+    - dovetail.ipv6.tc004
+    - dovetail.ipv6.tc005
+    - dovetail.ipv6.tc006
+    - dovetail.ipv6.tc007
+    - dovetail.ipv6.tc008
+    - dovetail.ipv6.tc009
+    - dovetail.ipv6.tc010
+    - dovetail.ipv6.tc011
+    - dovetail.ipv6.tc012
+    - dovetail.ipv6.tc013
+    - dovetail.ipv6.tc014
+    - dovetail.ipv6.tc015
+    - dovetail.ipv6.tc016
+    - dovetail.ipv6.tc017
+    - dovetail.ipv6.tc018
+    - dovetail.ipv6.tc019
+    - dovetail.ipv6.tc020
+    - dovetail.ipv6.tc021
+    - dovetail.ipv6.tc022
+    - dovetail.ipv6.tc023
+    - dovetail.ipv6.tc024
+    - dovetail.ipv6.tc025
